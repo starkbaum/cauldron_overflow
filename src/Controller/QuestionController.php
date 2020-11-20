@@ -32,6 +32,8 @@ class QuestionController extends AbstractController
             'Maybe... try saying the spell backwards?',
         ];
 
+        dump($this);
+
         #return new Response(sprintf(
         #    'Future page to show the question %s',
         #    ucwords(str_replace('-', ' ', $slug))
